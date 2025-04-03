@@ -1,0 +1,28 @@
+{
+  "name": "evo-tasks-api",
+  "version": "1.0.0",
+  "description": "Streamline your tasks with intuitive \"workspaces,\" smart calendar integration, and AI-powered assistance. ✨",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "server": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/politan/evo-tasks.git"
+  },
+  "author": "politan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.17",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
